@@ -94,3 +94,31 @@ git push origin <ブランチ名>
 ├── main.py            # メインプログラム
 └── requirements.txt   # 依存パッケージリスト
 ```
+
+
+I:.
+main.py
+│  app.py
+│
+├─components
+│  │  control_panel.py
+│  │  gradient_ring.py
+│  │  timer_service.py
+│  │  time_display.py
+│  │
+│  └─__pycache__
+│          control_panel.cpython-310.pyc
+│          gradient_ring.cpython-310.pyc
+│          time_display.cpython-310.pyc
+│
+├─services
+│  │  timer_service.py
+│  │
+│  └─__pycache__
+│          timer_service.cpython-310.pyc
+│
+├─utils
+│      time_formatter.py
+│
+└─__pycache__
+        app.cpython-310.pyc
